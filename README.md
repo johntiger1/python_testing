@@ -14,6 +14,15 @@ Since we are allowed to choose our environment manager, we will simply use conda
 
 2. Pytest
 
+# What does Pytest see? Discovery of Fixtures and Tests
+
+Fixtures:
+`py.test --fixtures`
+
+Tests:
+`py.test --collect-only` 
+
+Note that py.test is for py2, while pytest is for py3
 # Running
 `pytest` 
 
