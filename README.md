@@ -13,3 +13,12 @@ Since we are allowed to choose our environment manager, we will simply use conda
 1. Unittest
 
 2. Pytest
+
+# Running
+`pytest` 
+
+will do test discovery and execution!
+
+`pytest -vvv -s`
+
+will run the tests, and also show the captured stdout.
